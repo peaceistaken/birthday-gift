@@ -1,0 +1,135 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(rgb(67, 176, 240),pink);
+    
+}
+
+h1, p {
+    text-shadow: 2px 2px 1px black;
+    
+    
+}
+
+#bday-age{
+    background-color: #EFB0C9;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 10px;
+}
+
+#bday-date{
+    background-color: #EFB0C9;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px black;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+
+#avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    border: solid 6px #EFB0C9;
+}
+
+.header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;   
+}
+
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    border:solid 7px white;
+    border-radius: 8px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+
+#bday-text {
+    text-shadow: 1px 0px 1px black;
+    
+}
+
+.gift-img:hover {
+    background-image: url(images/happy.gif);
+}
+
+#gift-hot {
+    width: 400px;
+    height: 400px;
+    border:solid 7px white;
+    border-radius: 8px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-hot:hover {
+    background-image: url(images/hot.gif);
+}
+
+#gift-genius {
+    width: 400px;
+    height: 400px;
+    border:solid 7px white;
+    border-radius: 8px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-genius:hover {
+    background-image: url(images/genius.gif);
+}
+
+#gift-badass {
+    width: 400px;
+    height: 400px;
+    border:solid 7px white;
+    border-radius: 8px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-badass:hover {
+    background-image: url(images/badass.gif);
+}
+
+#gift-special {
+    width: 400px;
+    height: 200px;
+    border:solid 7px white;
+    border-radius: 8px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+
+    #gift-special:hover {
+    background-image: url(images/cheers.gif);
+}
+
+#footer {
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+    font-size: larger;
+    margin-top: 40px;
+    width: 400px;
+}
+
+a {
+    color: white;
+}
